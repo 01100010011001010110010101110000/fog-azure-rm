@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'fog/azurerm/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'fog-azure-rm'
+  spec.name          = 'fog-azure-rm-downgraded'
   spec.version       = Fog::AzureRM::VERSION
   spec.authors       = ['Shaffan Chaudhry', 'Samawia Moin', 'Adnan Khalil', 'Zeeshan Arshad', 'Haider Ali', 'Waqar Haider', 'Bilal Naeem']
   spec.summary       = "Module for the 'fog' gem to support Azure Resource Manager cloud services."
